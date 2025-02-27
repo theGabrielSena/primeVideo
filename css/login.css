@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.forms{
+    padding: 30px;
+    border: 1px solid rgba(124, 124, 124, 0.24);
+    border-radius: 18px;
+
+}
+
+.title{
+    margin-bottom: 8px;
+}
+
+.title h1{
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 36px;
+}
+
+.insert p{
+   font-weight: 700;
+}
+
+.insert input{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn button{
+    background-color: #ffd814;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+.terms{
+    margin-top: 12px;
+    width: 296px;
+    font-size: 12px;
+}
+
+.terms a{
+    color: #007185;
+}
+
+.support{
+    margin-top: 12px;
+}
+
+.support a{
+    text-decoration: none;
+    color: #007185;
+}
+
+
