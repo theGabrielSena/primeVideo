@@ -5,21 +5,30 @@
     font-family: "Amazon Ember", Arial, sans-serif;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
 .container{
     display: flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
+    flex-direction: column;
 }
 
 .forms{
-    padding: 30px;
+    padding: 20px;
     border: 1px solid rgba(124, 124, 124, 0.24);
-    border-radius: 18px;
+    border-radius: 6px;
+    width: 348px;
 
 }
 
 .title{
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .title h1{
@@ -30,6 +39,7 @@
 
 .insert p{
    font-weight: 700;
+   font-size: 14px;
 }
 
 .insert input{
@@ -38,6 +48,7 @@
     border-radius: 5px;
     margin-top: 5px;
     padding-left: 10px;
+    border: 1px solid black;
 }
 
 .btn{
@@ -63,12 +74,74 @@
 }
 
 .support{
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 .support a{
     text-decoration: none;
     color: #007185;
+    font-size: 12px;
 }
 
+.text_amazon{
+     margin-top: 12px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     gap: 10px;
 
+
+     & div {
+        width: 120px;
+        height: 1px;
+        background-color: #00000056;
+     }
+
+}
+
+.text_amazon p{
+    font-size: 13px
+}
+
+.btn2{
+    margin-top: 12px;
+}
+
+.btn2 button{
+    width: 350px;
+    border-radius: 50px;
+    height: 31px;
+    background-color: #fff;
+    border: 1px solid #00000038;
+}
+
+.line_footer{
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.copyright a{
+    font-size: 12px;
+    padding: 12px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.reserv{
+    padding-top: 12px;
+}
+
+.copyright p{
+    font-size: 13px;
+    color: #00000061;
+}
