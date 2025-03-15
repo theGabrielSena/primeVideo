@@ -32,7 +32,7 @@ header{
         
     }
     & nav.esquerda {
-        padding-right: 115px;
+        padding-right: 90px;
     }
 
     & nav .meio{
@@ -93,7 +93,7 @@ header{
 
 main{
     & .conteudo{
-        width: 1318px;
+        width: 1303px;
         height: 752px;
         margin: auto;
         position: relative;
@@ -174,12 +174,162 @@ main{
             align-items: center;
             font-family: "Amazon Ember Bold";
         }
+
+        & .clients{
+            padding-top: 320px;
+            display: flex;
+            flex-direction: row;
+            background-color: #00050D;
+            padding-left: 55px;
+            padding-bottom: 200px;
+
+            .clients-text{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            & h1{
+                font-size: 50px;
+                width: 535px;
+                line-height: 56px;
+                letter-spacing: 0em;
+                font-weight: 700;
+                color: #fff
+            }
+            & h5{
+                font-size: 20px;
+                width: 555px;
+                line-height: 28px;
+                letter-spacing: 0em;
+                font-weight: 500;
+                color: #fff
+            }
+            & .imgs-grid{
+                display: flex;
+                flex-wrap: wrap;
+                width: 735px;
+                gap: 7px;
+                margin-left: 65px;
+            }
+
+            & .imgs-grid img{
+                width: 182px;
+                height: 126px;
+                border-radius: 12px;
+
+            }
+            & .imgs-grid img:hover{
+                box-shadow: -2px 4px 20px -3px rgba(154, 199, 236, 0.733);
+            }
+        }
+
+        & .content-background-2{
+            position: absolute;
+            bottom: -1221px;
+            right: 0;
+            padding: 10px;
+            width: 54%;
+            height: 70%;
+            background: linear-gradient(to left, #00050D calc(100% - 40px), rgba(0, 5, 13, 0));
+        }
+
+        & .content-2{
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            margin: 50px;
+            
+            & h1{
+                font-size: 50px;
+                width: 535px;
+                line-height: 56px;
+                letter-spacing: 0em;
+                font-weight: 700;
+            }
+            & h5{
+                font-size: 20px;
+                width: 555px;
+                line-height: 28px;
+                letter-spacing: 0em;
+                font-weight: 500;
+            }
+        }
+
+        & .info-beneficios{
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            background-color: #000;
+            justify-content: space-between;
+            padding: 44px;
+            padding-top: 110px;
+            margin-top: -4px;
+            & .div-info{
+                width: 320px;
+                display: grid;
+                grid-template-rows: min-content 1fr 1fr;
+                align-items: flex-start;
+                grid-gap: 20px;
+            
+            }
+            & img{
+                width: 300px;
+                height: 300px;
+            }
+            & h2{
+                font-size: 28px;
+                width: 300px;
+                line-height: 29px;
+                letter-spacing: 0em;
+                font-weight: 700;
+                text-align: center;
+            }
+            & h6{
+                font-size: 16px;
+                width: 300px;
+                line-height: 22px;
+                letter-spacing: 0em;
+                font-weight: 500;
+            }
+        }
     }
     
 }
 
 footer{
-
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    padding-top: 1915px;
+    align-items: center;
+    gap: 2px;
+    padding-bottom: 15px;
+    & img{
+        width: 105px;
+        height: 32px;
+    }
+    & .informes{
+        width: 478px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 2px;
+        justify-content: space-between;
+    }
+    & .informes p{
+        color: #78b8f3;
+    }
+    & .informes p:hover{
+        color: #90dffe;
+    }
+    & p{
+        color: #8197a4;
+        margin-top: 5px;
+    }
 }
 
 
