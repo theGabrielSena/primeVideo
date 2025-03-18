@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember Regular";
+}
+
+@font-face {
+    font-family: 'Amazon Ember Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Amazon Ember Regular'), url('../fonts/amazon-ember-webfont/Amazon\ Ember.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Amazon Ember Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Amazon Ember Bold'), url('../fonts/amazon-ember-webfont/Amazon\ Ember Bold.woff') format('woff');
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+
+    & nav{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    & nav.esquerda {
+        padding-right: 90px;
+    }
+
+    & nav .meio{
+        color: #fff;
+        padding: 25px;
+    }
+    & nav i{
+        color: #fff;
+    }
+    & .logo{
+        width: 96px;
+        height: 19px;
+        margin-right: 20px;
+        margin-left: 25px;
+    }
+    & nav a {
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 14px;
+        letter-spacing: .035em;
+    }
+    & nav a img {
+        width: 33px;
+        height: 33px;
+    }
+    & .fa {
+        color: currentColor;
+    }  
+    & nav a:hover {
+        color: black;
+        height: 5px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 -4px 28px 0 rgba(var(--action-background-color,255,255,255),.2);
+        background-size: 5px 
+    }
+    & .btn{
+        width: 130px;
+        height: 42px;
+        background-color: rgb(26, 152, 255);
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 13px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-family: "Amazon Ember Bold";
+    }
+    & .btn:hover{
+        box-shadow: 0 -4px 20px 0 rgba(24, 140, 235, 0.733);
+    }
+}
+
+main{
+    & .conteudo{
+        width: 1303px;
+        height: 752px;
+        margin: auto;
+        position: relative;
+        background-color: #000;
+
+        & .imagemBaixa{
+            width: 100%;
+            height: 84vh;
+        }
+        & .content-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            width: 54%;
+            height: 99%;
+            background: linear-gradient(to right, #00050D calc(100% - 40px), rgba(0, 5, 13, 0));
+        }
+        
+
+        & .content{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            color: #fff;
+            margin-left: 50px;
+            margin: 50px;
+        }
+        & .content h1{
+            font-size: 50px;
+            width: 535px;
+            line-height: 56px;
+            letter-spacing: 0em;
+            font-weight: 700;
+
+        }
+        & .content h5{
+            font-size: 20px;
+            width: 535px;
+            line-height: 28px;
+            letter-spacing: 0em;
+            font-weight: 500;
+        }
+
+        & .content .ou{
+            display: flex;
+            width: 272px;
+        }
+
+        & .content span{
+            margin: 11px auto;
+            width: 43%;
+            border-bottom: 1px solid currentColor;
+            float: left;
+        }
+
+        & .content p{
+            font-size: 14px;
+            max-width: 435px;
+        }
+
+        & .btn{
+            width: 272px;
+            height: 60px;
+            background-color: #fff;
+            border-radius: 10px;
+            color: #00050D;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 8px 18px;
+            cursor: pointer;
+            align-items: center;
+            font-family: "Amazon Ember Bold";
+        }
+
+        & .clients{
+            padding-top: 320px;
+            display: flex;
+            flex-direction: row;
+            background-color: #00050D;
+            padding-left: 55px;
+            padding-bottom: 200px;
+
+            .clients-text{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            & h1{
+                font-size: 50px;
+                width: 535px;
+                line-height: 56px;
+                letter-spacing: 0em;
+                font-weight: 700;
+                color: #fff
+            }
+            & h5{
+                font-size: 20px;
+                width: 555px;
+                line-height: 28px;
+                letter-spacing: 0em;
+                font-weight: 500;
+                color: #fff
+            }
+            & .imgs-grid{
+                display: flex;
+                flex-wrap: wrap;
+                width: 735px;
+                gap: 7px;
+                margin-left: 65px;
+            }
+
+            & .imgs-grid img{
+                width: 182px;
+                height: 126px;
+                border-radius: 12px;
+
+            }
+            & .imgs-grid img:hover{
+                box-shadow: -2px 4px 20px -3px rgba(154, 199, 236, 0.733);
+            }
+        }
+
+        & .content-background-2{
+            position: absolute;
+            bottom: -1221px;
+            right: 0;
+            padding: 10px;
+            width: 54%;
+            height: 70%;
+            background: linear-gradient(to left, #00050D calc(100% - 40px), rgba(0, 5, 13, 0));
+        }
+
+        & .content-2{
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            margin: 50px;
+            
+            & h1{
+                font-size: 50px;
+                width: 535px;
+                line-height: 56px;
+                letter-spacing: 0em;
+                font-weight: 700;
+            }
+            & h5{
+                font-size: 20px;
+                width: 555px;
+                line-height: 28px;
+                letter-spacing: 0em;
+                font-weight: 500;
+            }
+        }
+
+        & .info-beneficios{
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            background-color: #000;
+            justify-content: space-between;
+            padding: 44px;
+            padding-top: 110px;
+            margin-top: -4px;
+            & .div-info{
+                width: 320px;
+                display: grid;
+                grid-template-rows: min-content 1fr 1fr;
+                align-items: flex-start;
+                grid-gap: 20px;
+            
+            }
+            & img{
+                width: 300px;
+                height: 300px;
+            }
+            & h2{
+                font-size: 28px;
+                width: 300px;
+                line-height: 29px;
+                letter-spacing: 0em;
+                font-weight: 700;
+                text-align: center;
+            }
+            & h6{
+                font-size: 16px;
+                width: 300px;
+                line-height: 22px;
+                letter-spacing: 0em;
+                font-weight: 500;
+            }
+        }
+    }
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    padding-top: 1915px;
+    align-items: center;
+    gap: 2px;
+    padding-bottom: 15px;
+    & img{
+        width: 105px;
+        height: 32px;
+    }
+    & .informes{
+        width: 478px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 2px;
+        justify-content: space-between;
+    }
+    & .informes p{
+        color: #78b8f3;
+    }
+    & .informes p:hover{
+        color: #90dffe;
+    }
+    & p{
+        color: #8197a4;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,40 +9,138 @@
     <meta name="keywords" content="Prime Video">
     <title>Bem-vindo(a) ao Prime Video</title>
     <link href="https://cdn.jsdeavr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/primeVideo/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header>
         <a href="">
-            <img src="/primeVideo/img/logo-min-remaster.png" alt="" class="logo">
+            <img src="../assets/img/logo-min-remaster.png" alt="" class="logo">
         </a>
-        
-        <nav class="esq">
-            <ul class="esquerdo">
-                <li>
-                    <a class="navs" href="#inicio">Início</a>
-                </li>
-                <li>
-                    <a class="navs" href="#filmes">Filmes</a>
-                </li>
-                <li>
-                    <a class="navs" href="#series">Séries</a>
-                </li>
-                <li>
-                    <a class="navs" href="#esportes">Esportes</a>
-                </li>
-                <li>
-                    <a class="navs" href="#tv">TV ao vivo</a>
-                </li>
-            </ul>
+        <nav class="esquerda">
+            <a href="#inicio">Início</a>
+            <a href="#filmes">Filmes</a>
+            <a href="#series">Séries</a>
+            <a href="#esportes">Esportes</a>
+            <a href="#tv">TV ao vivo</a>
+            <div class="meio">|</div>
+            <a href="#assinaturas">
+                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.664 2.063 C 2.436 2.146,2.257 2.297,2.131 2.511 L 2.020 2.700 2.020 6.500 L 2.020 10.300 2.131 10.489 C 2.192 10.592,2.301 10.723,2.374 10.778 C 2.675 11.008,2.531 11.000,6.498 11.000 C 10.604 11.000,10.387 11.015,10.701 10.701 C 11.015 10.387,11.000 10.604,11.000 6.500 C 11.000 2.396,11.015 2.613,10.701 2.299 C 10.386 1.984,10.606 2.000,6.483 2.003 C 3.408 2.005,2.795 2.015,2.664 2.063 M13.664 2.063 C 13.436 2.146,13.257 2.297,13.131 2.511 L 13.020 2.700 13.020 6.500 L 13.020 10.300 13.131 10.489 C 13.192 10.592,13.301 10.723,13.374 10.778 C 13.675 11.008,13.531 11.000,17.498 11.000 C 21.604 11.000,21.387 11.015,21.701 10.701 C 22.015 10.387,22.000 10.604,22.000 6.500 C 22.000 2.396,22.015 2.613,21.701 2.299 C 21.386 1.984,21.606 2.000,17.483 2.003 C 14.408 2.005,13.795 2.015,13.664 2.063 M9.000 6.500 L 9.000 9.000 6.500 9.000 L 4.000 9.000 4.000 6.500 L 4.000 4.000 6.500 4.000 L 9.000 4.000 9.000 6.500 M20.000 6.500 L 20.000 9.000 17.500 9.000 L 15.000 9.000 15.000 6.500 L 15.000 4.000 17.500 4.000 L 20.000 4.000 20.000 6.500 M2.664 13.063 C 2.436 13.146,2.257 13.297,2.131 13.511 L 2.020 13.700 2.020 17.500 L 2.020 21.300 2.131 21.489 C 2.192 21.592,2.301 21.723,2.374 21.778 C 2.675 22.008,2.531 22.000,6.498 22.000 C 10.604 22.000,10.387 22.015,10.701 21.701 C 11.015 21.387,11.000 21.604,11.000 17.500 C 11.000 13.396,11.015 13.613,10.701 13.299 C 10.386 12.984,10.606 13.000,6.483 13.003 C 3.408 13.005,2.795 13.015,2.664 13.063 M17.240 13.035 C 16.941 13.133,16.694 13.350,16.572 13.620 C 16.508 13.762,16.499 13.933,16.488 15.150 L 16.475 16.520 15.116 16.520 C 13.625 16.520,13.618 16.521,13.341 16.765 C 12.904 17.148,12.897 17.822,13.325 18.228 C 13.605 18.494,13.637 18.499,15.128 18.512 L 16.475 18.525 16.488 19.872 C 16.499 21.067,16.508 21.238,16.572 21.380 C 16.732 21.736,17.127 21.999,17.500 21.999 C 17.873 21.999,18.268 21.736,18.428 21.380 C 18.492 21.238,18.501 21.067,18.512 19.872 L 18.525 18.525 19.872 18.512 C 21.363 18.499,21.395 18.494,21.675 18.228 C 22.103 17.822,22.096 17.148,21.659 16.765 C 21.382 16.521,21.375 16.520,19.884 16.520 L 18.525 16.520 18.512 15.150 C 18.501 13.933,18.492 13.762,18.428 13.620 C 18.337 13.417,18.145 13.216,17.943 13.112 C 17.771 13.024,17.399 12.983,17.240 13.035 M9.000 17.500 L 9.000 20.000 6.500 20.000 L 4.000 20.000 4.000 17.500 L 4.000 15.000 6.500 15.000 L 9.000 15.000 9.000 17.500 " fill="currentColor" stroke="none" fill-rule="evenodd"></path></svg>
+                Assinaturas 
+            </a>
         </nav>
-        <nav class="dir">
-            
+        <nav class="direita">
+            <a href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-search"></i></a>
+            <a href="">PT <i class="fa fa-caret-down"></i></a>    
+            <a href="">
+                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.580 3.047 C 3.859 3.185,3.199 3.848,3.044 4.592 C 2.905 5.257,3.105 5.912,3.596 6.404 C 4.393 7.200,5.607 7.200,6.404 6.404 C 7.200 5.607,7.200 4.393,6.404 3.596 C 5.913 3.106,5.277 2.914,4.580 3.047 M11.580 3.047 C 10.859 3.185,10.199 3.848,10.044 4.592 C 9.789 5.816,10.751 7.000,12.000 7.000 C 13.080 7.000,14.000 6.080,14.000 5.000 C 14.000 4.477,13.790 3.983,13.404 3.596 C 12.913 3.106,12.277 2.914,11.580 3.047 M18.580 3.047 C 17.859 3.185,17.199 3.848,17.044 4.592 C 16.789 5.816,17.751 7.000,19.000 7.000 C 19.920 7.000,20.768 6.310,20.956 5.408 C 21.095 4.743,20.895 4.088,20.404 3.596 C 19.913 3.106,19.277 2.914,18.580 3.047 M4.580 10.047 C 4.236 10.113,3.883 10.310,3.596 10.596 C 2.800 11.393,2.800 12.607,3.596 13.404 C 4.393 14.200,5.607 14.200,6.404 13.404 C 7.200 12.607,7.200 11.393,6.404 10.596 C 5.913 10.106,5.277 9.914,4.580 10.047 M11.580 10.047 C 10.707 10.214,10.000 11.087,10.000 12.000 C 10.000 12.920,10.690 13.768,11.592 13.956 C 12.816 14.211,14.000 13.249,14.000 12.000 C 14.000 11.477,13.790 10.983,13.404 10.596 C 12.913 10.106,12.277 9.914,11.580 10.047 M18.580 10.047 C 17.707 10.214,17.000 11.087,17.000 12.000 C 17.000 12.920,17.690 13.768,18.592 13.956 C 19.816 14.211,21.000 13.249,21.000 12.000 C 21.000 11.477,20.790 10.983,20.404 10.596 C 19.913 10.106,19.277 9.914,18.580 10.047 M4.580 17.047 C 3.859 17.185,3.199 17.848,3.044 18.592 C 2.789 19.816,3.751 21.000,5.000 21.000 C 5.920 21.000,6.768 20.310,6.956 19.408 C 7.095 18.743,6.895 18.088,6.404 17.596 C 5.913 17.106,5.277 16.914,4.580 17.047 M11.580 17.047 C 10.859 17.185,10.199 17.848,10.044 18.592 C 9.789 19.816,10.751 21.000,12.000 21.000 C 13.080 21.000,14.000 20.080,14.000 19.000 C 14.000 18.477,13.790 17.983,13.404 17.596 C 12.913 17.106,12.277 16.914,11.580 17.047 M18.580 17.047 C 17.859 17.185,17.199 17.848,17.044 18.592 C 16.789 19.816,17.751 21.000,19.000 21.000 C 20.080 21.000,21.000 20.080,21.000 19.000 C 21.000 18.477,20.790 17.983,20.404 17.596 C 19.913 17.106,19.277 16.914,18.580 17.047 " fill="currentColor" stroke="none" fill-rule="evenodd">
+                    </path>
+                </svg>
+            </a>
+            <a href=""><img src="../assets/img/download.svg" alt=""></a>
+            <button class="btn">Assine o Prime</button>
         </nav>
     </header>
-    <header class="conteudo">
-        <img src="/primeVideo/img/BRND_MTH25_PVMagnetLeft_1440x675_POST_Final_pt-BR_GSS00023071.jpg" alt="" class="imagemBaixa">
-    </header>
+
+    <main>
+        <section class="conteudo">
+            <img src="../assets/img/content1.jpg" alt="" class="imagemBaixa">
+            <div class="content-background">
+                <section class="content">
+                    <h1>Filmes, séries, esportes e muito mais</h1>
+                    <h5>
+                        Assista a Amazon Originais premiados e aproveite entrega grátis e rápida em diversos produtos. Com o plano anual você parcela em até 12x de R$ 13,90/mês sem juros (R$ 166,80/ano).
+                        <br><br>
+                        A partir de 02/04/2025, os filmes e séries do Prime Video incluirão anúncios limitados e você poderá assinar a versão sem anúncios por mais R$ 10,00/mês.
+                    </h5>
+                    <button class="btn">Já é Prime? Faça login</button>
+                    <div class="ou">
+                        <span></span>
+                        <p>ou</p>
+                        <span></span>
+                    </div>
+                    <button class="btn">Experimente 30 dias grátis*</button>
+                    <p>Após 30 dias, o Amazon Prime é renovado automaticamente por R$ 19,90/mês ou até 12x de R$ 13,90 (R$ 166,80/ano). Cancele a qualquer momento.</p>
+                </section>
+            </div>
+            <section class="clients">
+                <div class="clients-text">
+                    <h1>Suas transmissões favoritas, tudo em um só lugar.</h1>
+                    <h5>
+                        Clientes Prime podem assinar e assistir outros serviços de streaming sem sair do app Prime Video. Experimente assinaturas selecionadas por 7 dias gratuitamente e assista a tudo em um só lugar.
+                    </h5>
+                </div>
+                <div class="imgs-grid">
+                    <a href="">
+                        <img src="../assets/img/client-paramount.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-max.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-premiere.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-telecine.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-globo.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-looke.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-universal.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-adrenalina.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../assets/img/client-mgm.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            <img src="../assets/img/content2.jpg" alt="" class="imagemBaixa">
+            <div class="content-background-2">
+                <section class="content-2">
+                    <h1>Loja Prime Video</h1>
+                    <h5>Ainda mais filmes, agora disponíveis para compra ou aluguel - assinatura Prime não necessária.</h5>
+                    <button class="btn">Alugar ou comprar filmes</button>
+                </section>
+            </div>
+
+            <section class="info-beneficios">
+                <div class="div-info">
+                    <img src="../assets/img/assista.png" alt="">
+                    <h2>Assista onde quiser</h2>
+                    <h6>Assista no site ou no app Prime Video em seu celular, tablet ou seleção de Smart TVs — em até 3 dispositivos ao mesmo tempo.</h6>
+                </div>
+                <div class="div-info">
+                    <img src="../assets/img/baixe.png" alt="">
+                    <h2>Baixe para assistir quando e onde quiser</h2>
+                    <h6>Assista offline no app Prime Video ao baixar títulos em seu iPhone, iPad, tablet ou dispositivo Android.</h6>
+                </div>
+                <div class="div-info">
+                    <img src="../assets/img/economia.png" alt="">
+                    <h2>Economia de dados</h2>
+                    <h6>Controle o uso de dados ao baixar e assistir a vídeos em uma seleção de celulares e tablets.</h6>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <img src="../assets/img/amazon_logo_branco.png" alt="">
+        <div class="informes">
+            <a href="">
+                <p>Termos e aviso de privacidade</p>
+            </a><a href="">
+                <p>Envie-nos comentários</p>
+            </a><a href="">
+                <p>Help</p>
+            </a>
+        </div>
+        <p>© 2025, Gabriel Sena e Kauan Souza</p>
+    </footer>
     <script src="https://kit.fontawesome.com/eb03b9e321.js" crossorigin="anonymous"></script>
 </body>
 </html>
